@@ -11,7 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Nhận xét về công cụ Android"
-        android:textSize="13pt"/>
+        android:textSize="44pt"/>
 
     <RadioGroup
         android:id="@+id/radGroup"
