@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FirstApp">
         <activity
+            android:name=".RadioActivity"
+            android:exported="true" />
+        <activity
             android:name=".CheckBoxExample"
             android:exported="true" />
         <activity

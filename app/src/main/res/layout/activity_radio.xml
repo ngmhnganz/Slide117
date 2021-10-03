@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".RadioActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nhận xét về công cụ Android"
+        android:textSize="8pt"/>
+
+    <RadioGroup
+        android:id="@+id/radGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radTuongDoi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tương đối tốt" />
+
+        <RadioButton
+            android:id="@+id/radTot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tốt" />
+
+        <RadioButton
+            android:id="@+id/radRatTot"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Rất tốt" />
+
+        <RadioButton
+            android:id="@+id/radPerfect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Perfect"
+            />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/bntVote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vote"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/txtKetQua"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bạn chọn"
+        android:background="#D35454"
+        android:textColor="@color/white"
+        android:padding="5dp"
+        android:textSize="9pt"/>
+
+</LinearLayout>
