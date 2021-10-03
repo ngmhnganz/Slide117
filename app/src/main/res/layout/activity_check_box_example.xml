@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".CheckBoxExample">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bạn thích xem phim app nào" />
+
+    <CheckBox
+        android:id="@+id/chkFilm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Film+" />
+
+    <CheckBox
+        android:id="@+id/chkFpt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FPT Play" />
+
+    <CheckBox
+        android:id="@+id/chkClip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chip TV" />
+
+    <Button
+        android:id="@+id/btnChon"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Chọn" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bạn chọn: "
+        android:textSize="24sp"
+        android:background="#009864"
+        android:textColor="@color/white"
+        android:padding="4dp"/>
+</LinearLayout>
